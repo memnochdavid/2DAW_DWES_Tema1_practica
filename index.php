@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Desarrollo Web en Entorno Servidor T1</title>
+  <link rel="stylesheet" href="assets/css/style.css">
   <meta name="description" content="">
 
   <meta property="og:title" content="">
@@ -23,10 +23,21 @@
 </head>
 
 <body>
+<?php
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+require_once "config/config.php";
+
+include "includes/header.php";
+include "includes/navbar.php";
+?>
+
+<div>
+  <h1>Bienvenido a Mi Proyecto Web</h1>
+  <p>Este es el inicio de tu aplicación.</p>
+</div>
+
+<?php include "includes/footer.php"; ?>
+<script src="assets/js/main.js"></script>
 
 </body>
 
