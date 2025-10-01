@@ -21,9 +21,7 @@ nav ul li a {
 html, body {
   height: 100%;
   width: 100%;
-  overflow: hidden;
   font-family: Arial, sans-serif;
-
 }
 .nav-item {
   background-color: #000000;

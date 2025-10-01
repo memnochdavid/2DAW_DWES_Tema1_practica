@@ -1,7 +1,10 @@
+<?php
+include "config/config.php";
+?>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="../index.php">
-      <img src="../assets/img/logo.png" alt="Mi Logo" height="80" class="d-inline-block align-text-top">
+    <a class="navbar-brand" href="<?php echo base_url ?>">
+      <img src="../assets/img/logo.png" alt="loogo" height="80" class="d-inline-block align-text-top">
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -14,10 +17,10 @@
           <a class="nav-link active" aria-current="page" href="../index.php">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/about.php">Acerca de</a>
+          <a class="nav-link" href="<?php echo base_url ?>/pages/about.php">Acerca de</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/contact.php">Contacto</a>
+          <a class="nav-link" href="<?php echo base_url ?>/pages/contact.php">Contacto</a>
         </li>
       </ul>
     </div>
