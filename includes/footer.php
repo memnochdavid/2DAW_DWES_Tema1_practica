@@ -1,11 +1,14 @@
-<?php include "../config/config.php"; ?>
-<footer class="bg-dark text-white text-center py-3 mt-5">
+<footer class="bg-dark text-white text-center py-3 mt-auto">
   <div class="container">
     <p class="mb-0">
-      <?php date_default_timezone_set("Europe/Madrid");
-      echo date("D, d M Y H:i:s");
-      ?> <br>&copy;
-      <?php echo autor; ?>. Todos los derechos reservados, así que no te pases.
+      <?php
+      setlocale(LC_TIME, "es_ES.UTF-8");
+      echo strftime("%A, %d de %B de %Y %H:%M:%S");
+      ?>
+      <br>&copy; <?php echo autor; ?>. Todos los derechos reservados.
     </p>
   </div>
+
+  <script src="<?php echo base_url ?>/assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </footer>

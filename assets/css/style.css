@@ -35,8 +35,112 @@ html, body {
   border-radius: 5px;
   padding: 10px;
   transition: 0.3s;
+  width: auto;
 }
 #ej01:hover{
   background-color: #f1ebe2;
+  /*transform: scale(1.01);*/
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 2vh 2vw;
+  flex: 0 0 auto;
+}
+
+.banner img {
+  width: 8vw;
+  max-width: 100px;
+  height: auto;
+}
+
+.banner h1 {
+  flex: 1;
+  text-align: center;
+  font-size: 4vw;
+  color: white;
+}
+
+.contenedor {
+  display: flex;
+  flex-grow: 1;
+  overflow-y: auto;
+  align-items: center;
+  border-radius: 8px;
+  line-height: 1.5;
+
+}
+
+.contenedor p{
+  display: flex;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgb(219, 217, 98);
+  margin: 1vh 2vw;
+  padding: 4vh 2vw;
+  transition: 0.3s;
+}
+.contenedor>p:hover{
   transform: scale(1.01);
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2vh 2vw;
+  flex: 0 0 auto;
+  background-color: #000000;
+}
+
+.botones button {
+  padding: 1vh 2vw;
+  font-size: 2vh;
+  border-radius: 0.5vh;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(147, 153, 131);
+  color: black;
+  transition: 0.3s;
+}
+
+.botones button:hover {
+  background-color: rgb(243, 252, 217);
+  color: rgb(0, 0, 0);
+}
+#contenido{
+  display: flex;
+  flex-grow: 1;
+  overflow: auto;
+  align-items: center;
+  border-radius: 8px;
+  line-height: 1.5;
+}
+#contenido_ej01 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  width: auto!important;
+  flex-grow: 1;
+}
+.navbar>div{
+  display: flex;
+  flex-direction: row;
 }

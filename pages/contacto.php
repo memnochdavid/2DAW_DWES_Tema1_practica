@@ -1,0 +1,17 @@
+<?php
+include "../config/config.php";
+include "../includes/header.php";
+include "../includes/navbar.php";
+?>
+<div class="banner">
+  <img src="../assets/img/barney.png" alt="">
+  <h1>BARNNIER</h1>
+</div>
+<div class="contenedor">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos a laudantium distinctio laboriosam quam vel voluptates blanditiis ea minima delectus, consequatur non numquam sint optio, maiores molestias, eos quae debitis! Ratione alias ipsum eligendi dolores veritatis repellendus quas quibusdam, accusamus quia, voluptates aperiam, hic similique! Repellendus veniam fugiat magni unde. Ab, dicta odit eum blanditiis eaque quibusdam repudiandae similique minus quis, dignissimos illo labore expedita quaerat ipsum illum sapiente, voluptatum rerum natus explicabo facilis perspiciatis odio earum placeat. Beatae officiis, nulla accusantium, blanditiis nesciunt assumenda earum voluptatem voluptatibus, at impedit aperiam eaque atque? Hic autem delectus, odio perspiciatis dolorem debitis aperiam dolor magni eos voluptate tenetur labore, unde pariatur quis architecto deleniti quisquam aut! Amet ipsam eveniet voluptas modi laboriosam! Reprehenderit repudiandae saepe repellendus minus inventore, aspernatur id provident vel eligendi in odio hic adipisci? Aspernatur, consectetur quas doloremque cupiditate culpa at quo voluptas, quis magnam quaerat, enim assumenda id hic. Minima est optio laboriosam necessitatibus labore quasi quos nisi corrupti, explicabo nobis vel eveniet libero quas ullam, consectetur quis porro pariatur perspiciatis dolorem quam? Repudiandae voluptate dolorem adipisci molestiae, quia, fugiat minima omnis blanditiis eius mollitia molestias deserunt reprehenderit veniam natus corrupti commodi, repellat autem expedita optio pariatur nisi. Quidem ratione eligendi eum, ea blanditiis quo nobis tempora similique facere alias inventore adipisci unde sunt! Sint, eaque ipsum veritatis atque ullam culpa eum tempora ex fuga excepturi fugiat sit. Nemo eos dolorem laboriosam non porro repellendus numquam quidem blanditiis asperiores minus vel, aliquid expedita perferendis voluptas error a iste unde? Accusantium minima natus at, voluptatibus, voluptatum praesentium, aut aperiam quidem iure eum illo rem tenetur consectetur itaque error ea magnam ab. </p>
+</div>
+<div class="botones">
+  <button>Cosa1</button>
+  <button>Cosa2</button>
+</div>
+<?php include "includes/footer.php"; ?>
