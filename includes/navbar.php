@@ -13,13 +13,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link <?php if (str_contains($_GET['page'], 'index')) echo 'active'; ?>" href="<?php echo BASE_URL; ?>/index.php?page=index">Inicio</a>
+          <a class="nav-link <?php if ($_GET['page'] == 'index') echo 'active'; ?>" href="/index.php?page=index">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php if (str_contains($_GET['page'], 'about')) echo 'active'; ?>" href="<?php echo BASE_URL; ?>/index.php?page=about">Acerca de</a>
+          <a class="nav-link <?php if ($_GET['page'] == 'about')  echo 'active'; ?>" href="/index.php?page=about">Acerca de</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php if (str_contains($_GET['page'], 'contacto')) echo 'active'; ?>" href="<?php echo BASE_URL; ?>/index.php?page=contacto">Contacto</a>
+          <a class="nav-link <?php if ($_GET['page'] == 'contacto')  echo 'active'; ?>" href="/index.php?page=contacto">Contacto</a>
         </li>
       </ul>
     </div>
