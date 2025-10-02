@@ -14,4 +14,4 @@ include "../includes/navbar.php";
   <button>Cosa1</button>
   <button>Cosa2</button>
 </div>
-<?php include "includes/footer.php"; ?>
+<?php //include "includes/footer.php"; ?>

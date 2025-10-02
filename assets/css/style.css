@@ -139,8 +139,12 @@ html, body {
   overflow: auto;
   width: auto!important;
   flex-grow: 1;
+  border-radius: 5px;
 }
 .navbar>div{
   display: flex;
   flex-direction: row;
+}
+.card{
+  background-color: rgb(219, 217, 98);
 }

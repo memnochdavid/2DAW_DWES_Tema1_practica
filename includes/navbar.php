@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="<?php echo base_url ?>/index.php">
-      <img src="<?php echo base_url ?>/assets/img/logo.png" alt="logo" height="50"
+    <a class="navbar-brand" href="<?php echo BASE_URL; ?>/index.php">
+      <img src="<?php echo BASE_URL; ?>/assets/img/logo.png" alt="logo" height="50"
            class="d-inline-block align-text-top">
     </a>
 
@@ -13,13 +13,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link <?php if (str_contains(url_actual, 'index')) echo "active" ?>" href="<?php echo base_url ?>/index.php">Inicio</a>
+          <a class="nav-link <?php if (str_contains(URL_ACTUAL, 'index')) echo 'active'; ?>" href="<?php echo BASE_URL; ?>/index.php?page=index">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php if (str_contains(url_actual, 'about')) echo "active" ?>"" href="<?php echo base_url ?>/pages/about.php">Acerca de</a>
+          <a class="nav-link <?php if (str_contains(URL_ACTUAL, 'about')) echo 'active'; ?>" href="<?php echo BASE_URL; ?>/index.php?page=about">Acerca de</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?php if (str_contains(url_actual, 'contacto')) echo "active" ?>"" href="<?php echo base_url ?>/pages/contacto.php">Contacto</a>
+          <a class="nav-link <?php if (str_contains(URL_ACTUAL, 'contacto')) echo 'active'; ?>" href="<?php echo BASE_URL; ?>/index.php?page=contacto">Contacto</a>
         </li>
       </ul>
     </div>

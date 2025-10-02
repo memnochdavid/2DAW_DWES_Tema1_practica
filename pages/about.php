@@ -8,7 +8,7 @@ include "../includes/navbar.php";
   <div class="card shadow p-4 w-100" style="max-width: 700px;">
     <h1 class="text-center mb-4">Acerca de mí</h1>
     <p class="lead text-center">
-      Soy <strong><?php echo autor; ?></strong>, estudiante de <strong>2º de Desarrollo de Aplicaciones Web</strong> en <em>Escuela Arte Granada</em>.
+      Soy <strong><?php echo AUTOR; ?></strong>, estudiante de <strong>2º de Desarrollo de Aplicaciones Web</strong> en <em>Escuela Arte Granada</em>.
     </p>
   </div>
 </main>
