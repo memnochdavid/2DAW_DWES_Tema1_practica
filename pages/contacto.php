@@ -1,6 +1,6 @@
 <?php
 include "../config/config.php";
-include "../includes/header.php";
+include "../includes/head.php";
 include "../includes/navbar.php";
 ?>
 <div class="banner">
