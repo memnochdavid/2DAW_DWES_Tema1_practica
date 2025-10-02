@@ -1,8 +1,3 @@
-<?php
-include "../config/config.php";
-include "../includes/head.php";
-include "../includes/navbar.php";
-?>
 
 <main class="container d-flex flex-column justify-content-center align-items-center flex-fill mt-5">
   <div class="card shadow p-4 w-100" style="max-width: 700px;">
@@ -13,4 +8,4 @@ include "../includes/navbar.php";
   </div>
 </main>
 
-<?php include "../includes/footer.php"; ?>
+

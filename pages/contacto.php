@@ -1,8 +1,3 @@
-<?php
-include "../config/config.php";
-include "../includes/head.php";
-include "../includes/navbar.php";
-?>
 <div class="banner">
   <img src="../assets/img/barney.png" alt="">
   <h1>BARNNIER</h1>
@@ -14,4 +9,3 @@ include "../includes/navbar.php";
   <button>Cosa1</button>
   <button>Cosa2</button>
 </div>
-<?php //include "includes/footer.php"; ?>
